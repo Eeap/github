@@ -29,6 +29,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-devtools'
     testImplementation 'junit:junit:4.13.1'
     implementation 'org.kohsuke:github-api:1.302'
+    implementation 'org.springframework.boot:spring-boot-starter-mail'
 }
 
 tasks.named('test') {
